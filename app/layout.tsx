@@ -7,32 +7,32 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://riahy.com"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://riahy.com",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Kourosh Riahidehkordi",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "A programmer interested in creating software, video games and simulations.",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Kourosh Riahidehkordi Software Engineer Game Development Simulation Software Mixed Reality Virtual Reality (VR) Augmented Reality (AR) Unreal Engine Unity",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Kourosh Riahidehkordi",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Kourosh Riahidehkordi",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "Kourosh Riahidehkordi is a programmer interested in creating software, video games and simulations.",
+    url: "https://riahy.com",
     images: [
       {
-        url: "./og-large-meik-2.jpg",
+        url: "./k.png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Kourosh Riahidehkordi",
   },
 };
 

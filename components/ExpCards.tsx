@@ -12,97 +12,74 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
-    timeline: "Aug 2024 — Present",
-    currentPosition: "Founding Designer & Head of Product Design",
-    place: "Stealth AI Startup",
-    previousPositions: [""],
+    timeline: "Jan 2024 — Present",
+    currentPosition: "Junior Technician in Augmented Reality and Computer Vision",
+    place: "[Full-time]",
+    previousPositions: ["Istituto Italiano di Tecnologia"],
     description:
-      "Establishing and leading the design team for a Stealth AI Startup set to bring the New Era of Money. My role involves founding and leading the design team, setting the vision and standards for design excellence, direct branding and actively contributing to hands-on product design for going to market.",
+      "As a technician at IIT, I develop the MEMEX and BoSS Android apps using Unity C#, AR Core, and manage backend servers with Flask, Strapi, and Docker, integrating data with 3D Gaussian splatting models.",
     skills: [
-      "Brand Identity",
-      "Product Design",
+      "Unity",
+      "C#",
       "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
+      "Google ARCore",
+      "Python",
+      "Flask",
+      "strapi",
+      "Docker",
+      "3DGS",
+      "Git",
+      "Linux"
     ],
   },
   {
-    timeline: "Mar 2024 — Present",
-    currentPosition: "Head of Product Design",
-    place: "Vela Exchange",
-    previousPositions: ["Designer and Front-end Developer"],
+    timeline: "Sep 2021 — Dec 2023",
+    currentPosition: "Software Engineer for Mixed Reality Software and Simulation",
+    place: "[Contract]",
+    previousPositions: ["Istituto Italiano di Tecnologia"],
     description:
-      "Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.",
+      "As lead developer at IIT, I worked on the INAIL mixed reality training project, \"Caduta dall'Alto,\" focusing on VR development and UE4 C++ to create a VR simulation for training workers at height.",
     skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
+      "Unreal Engine 4",
+      "C++",
+      "Virtual Reality (VR)",
+      "Motion Capture",
+      "OpenXR",
+      "Node.js",
+      "Git",
+      "Perforce"
     ],
   },
   {
-    timeline: "Feb 2022 — Presents",
-    currentPosition: "Co-founder, Designer & Developer",
-    place: "Swoop Exchange",
-    previousPositions: [""],
+    timeline: "Oct 2020 — Mar 2021",
+    currentPosition: "UE4 Programmer",
+    place: "[internship]",
+    previousPositions: ["AnteMotion"],
     description:
-      "Co-founded, designed, and developed a Next-Gen Decentralized Exchange from MVP to launch, scaling from zero to over $10M in trading volume. Swoop Exchange is powered by a novel Meta-Aggregation Engine that leverages sophisticated routing algorithms and APIs to automatically route trades from the most profitable liquidity sources, vastly improving swap efficiency and user experience.",
+      "I completed a 6-month internship at AnteMotion, where I implemented a virtual LIDAR sensor in Unreal Engine using C++ for automotive ADAS driving simulation. My master's thesis was also closely related to this work.",
     skills: [
-      "Typescript",
-      "JavaScript",
-      "CSS",
-      "Tailwind CSS",
-      "MUI",
-      "HTML",
-      "Figma",
-      "UI/UX Design",
-      "Blockchain tech",
-      "Project Management",
-      "Planning",
-      "Leadership",
-      "Testing & QA",
+      "Unreal Engine 4",
+      "C++",
+      "Transmission Control Protocol (TCP)",
+      "User Datagram Protocol (UDP)",
+      "LiDAR",
+      "Point Clouds"
     ],
   },
   {
-    timeline: "Aug 2016 — Mar 2024",
-    currentPosition: "Head of QA",
-    place: "Lykomitros Steel",
+    timeline: "Jun 2015 — Aug 2015",
+    currentPosition: "Website Developer",
+    place: "[internship]",
     previousPositions: [
-      "Quality Assurance Engineer",
-      "QA/QC Administrative Support",
+      "Amirkabir University of Technology",
     ],
     description:
-      "Lead the QA department, focusing on renewable energy components in steel manufacturing. Maintained industry and client standards, ensuring product integrity for renewable energy.",
+      "During my 3-month internship at Amirkabir University of Technology I developed and managed websites using WordPress. The topic of my bachelor's thesis was also relevant to my internship.",
     skills: [
-      "ISO Compliance",
-      "Quality Assurance",
-      "Engineering Management",
-      "ISO 9001",
-      "ISO 45001",
-      "ISO 14001",
-      "Requirement Assessment",
-      "Auditing",
-    ],
-  },
-  {
-    timeline: "Nov 2013 - May 2014",
-    currentPosition: "Digital Systems Admin - Internship",
-    place: "OTE Group (HTO)",
-    previousPositions: [""],
-    description:
-      "Gained valuable experience in digital systems administration, focusing on the management of contractors and capital.",
-    skills: [
-      "SQL",
-      "Administration",
-      "Problem-Solving",
-      "Computer Systems",
-      "System documentation",
-      "Networking",
-      "Cloud Computing",
-      "Automation",
-      "Scripting",
+      "WordPress",
+      "Joomla!",
+      "HTML",
+      "CSS"
     ],
   },
 ];
@@ -149,7 +126,7 @@ export default function ExpCard() {
       </>
       <div className="lg:px-12 mt-12">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="mailto:kooroshoo@yahoo.com"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"

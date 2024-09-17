@@ -54,15 +54,13 @@ export default function Nav() {
           </Avatar>
         </div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Hi, i&#39;m Kourosh 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Product designer, developer, founder.
+          Game Developer and Simulation Engineer
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I help innovative startups in AI, Web3, and Finance craft exceptional
-          user experiences, translating complex technologies into intuitive
-          interfaces that resonate with humans.
+          I specialize in creating immersive software, video games, and simulations, transforming complex technologies into engaging and interactive experiences.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -85,7 +83,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
-            href="https://github.com/0xAlexander"
+            href="https://github.com/Kooroshoo"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,7 +92,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/0xAlexander"
+            href="https://www.linkedin.com/in/kooroshoo/"
             target="_blank"
             rel="noopener noreferrer"
           >

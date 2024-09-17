@@ -16,13 +16,13 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          If you&#39;re considering my contribution, have a question, or just
+          If you have a question, or just
           want to say hi, you can count on hearing back from me!
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="mailto:kooroshoo@yahoo.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"
