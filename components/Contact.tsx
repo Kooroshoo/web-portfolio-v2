@@ -16,8 +16,7 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          If you have a question, or just
-          want to say hi, you can count on hearing back from me!
+          If you have any questions or would like to get in touch, feel free to reach out.
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">

@@ -14,7 +14,6 @@ const jobPositions = [
   {
     timeline: "Jan 2024 — Present",
     currentPosition: "Junior Technician in Augmented Reality and Computer Vision",
-    place: "[Full-time]",
     previousPositions: ["Istituto Italiano di Tecnologia"],
     description:
       "As a technician at IIT, I develop the MEMEX and BoSS Android apps using Unity C#, AR Core, and manage backend servers with Flask, Strapi, and Docker, integrating data with 3D Gaussian splatting models.",
@@ -25,17 +24,17 @@ const jobPositions = [
       "Google ARCore",
       "Python",
       "Flask",
-      "strapi",
+      "Strapi",
       "Docker",
       "3DGS",
       "Git",
       "Linux"
     ],
+    link: "https://www.masmasak.com/memex" // Add actual link if available
   },
   {
     timeline: "Sep 2021 — Dec 2023",
     currentPosition: "Software Engineer for Mixed Reality Software and Simulation",
-    place: "[Contract]",
     previousPositions: ["Istituto Italiano di Tecnologia"],
     description:
       "As lead developer at IIT, I worked on the INAIL mixed reality training project, \"Caduta dall'Alto,\" focusing on VR development and UE4 C++ to create a VR simulation for training workers at height.",
@@ -49,11 +48,11 @@ const jobPositions = [
       "Git",
       "Perforce"
     ],
+    link: "https://www.masmasak.com/ffh" // Add actual link if available
   },
   {
     timeline: "Oct 2020 — Mar 2021",
     currentPosition: "UE4 Programmer",
-    place: "[internship]",
     previousPositions: ["AnteMotion"],
     description:
       "I completed a 6-month internship at AnteMotion, where I implemented a virtual LIDAR sensor in Unreal Engine using C++ for automotive ADAS driving simulation. My master's thesis was also closely related to this work.",
@@ -65,11 +64,11 @@ const jobPositions = [
       "LiDAR",
       "Point Clouds"
     ],
+    link: "https://www.masmasak.com/lidar" // Add actual link if available
   },
   {
     timeline: "Jun 2015 — Aug 2015",
     currentPosition: "Website Developer",
-    place: "[internship]",
     previousPositions: [
       "Amirkabir University of Technology",
     ],
@@ -94,49 +93,43 @@ export default function ExpCard() {
       </div>
       <>
         {jobPositions.map((job, index) => (
-          <Card
+          <a
             key={index}
-            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            href={job.link} // Use the link from the job position data
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:cursor-pointer"
           >
-            <CardHeader className="h-full w-full p-0">
-              <CardTitle className="text-base text-slate-400 whitespace-nowrap">
-                {job.timeline}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-col p-0">
-              <p className="text-foreground font-bold">
-                {job.currentPosition} • {job.place}
-              </p>
-              {job.previousPositions.map((position, index) => (
-                <p key={index} className="text-slate-400 text-sm font-bold">
-                  {position}
+            <Card
+              className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            >
+              <CardHeader className="h-full w-full p-0">
+                <CardTitle className="text-base text-slate-400 whitespace-nowrap">
+                  {job.timeline}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-col p-0">
+                <p className="text-foreground font-bold">
+                  {job.currentPosition}
                 </p>
-              ))}
-              <CardDescription className="py-3 text-muted-foreground">
-                {job.description}
-              </CardDescription>
-              <CardFooter className="p-0 flex flex-wrap gap-2">
-                {job.skills.map((skill, index) => (
-                  <Badge key={index}>{skill}</Badge>
+                {job.previousPositions.map((position, index) => (
+                  <p key={index} className="text-slate-400 text-sm font-bold">
+                    {position}
+                  </p>
                 ))}
-              </CardFooter>
-            </CardContent>
-          </Card>
+                <CardDescription className="py-3 text-muted-foreground">
+                  {job.description}
+                </CardDescription>
+                <CardFooter className="p-0 flex flex-wrap gap-2">
+                  {job.skills.map((skill, index) => (
+                    <Badge key={index}>{skill}</Badge>
+                  ))}
+                </CardFooter>
+              </CardContent>
+            </Card>
+          </a>
         ))}
       </>
-      <div className="lg:px-12 mt-12">
-        <a
-          href="mailto:kooroshoo@yahoo.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center font-medium leading-tight text-foreground group"
-        >
-          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            Reach out for Full Resume
-          </span>
-          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
-        </a>
-      </div>
     </section>
   );
 }

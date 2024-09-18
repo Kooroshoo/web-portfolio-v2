@@ -11,12 +11,11 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          I'm a software engineer with a passion for creating immersive simulations, video games, and innovative software solutions. 
-          I have hands-on experience in developing applications for{" "}
+          I'm a software engineer with a focus on creating sofware, video games and simulations. I have hands-on experience developing applications for{" "}
           <span className="text-white">
             virtual reality (VR) and augmented reality (AR)
           </span>{" "}
-          , combining cutting-edge technologies to build engaging and interactive experiences.
+          , using advanced technologies to build engaging and interactive experiences.
         </p>
 
         <p className="text-start text-muted-foreground lg:px-6">
@@ -24,11 +23,11 @@ export default function About() {
           <span className="text-white">
             artificial intelligence (AI) and machine learning
           </span>{" "} 
-          , exploring how these technologies can enhance the realism and intelligence of the simulations and games I develop.
+          , exploring how these technologies can integrate with my work and create new exciting opportunities.
         </p>
 
         <p className="text-start  text-muted-foreground lg:px-6">
-          I’m always excited to learn and experiment with emerging technologies, constantly seeking new ways to improve my skills and create more dynamic and impactful experiences.{" "}
+          I'm always eager to learn and experiment with new technologies, constantly looking for ways to improve my skills and create more interesting and engaging software.{" "}
         </p>
         
       </div>

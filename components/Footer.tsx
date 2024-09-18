@@ -9,7 +9,7 @@ export default function Footer() {
           <a className="text-foreground" href="https://brittanychiang.com">
             Brittany Chiang&#39;s website
           </a>{" "}
-          (they awesome). 
+          (they awesome) 
           and {" "}         
           <a className="text-foreground" href="https://meikopoulos.com/">
           Alexander E. Meikopoulos&#39;s website.
